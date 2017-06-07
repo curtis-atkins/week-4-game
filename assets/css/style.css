@@ -1,0 +1,72 @@
+body{
+	background-image: url("../../greenDustScratch.png");
+}
+h1{
+	font-size: 1.5em;
+	padding: 25px 15px 25px 15px;
+}
+
+h2{
+	padding: 3px;
+}
+p{
+	padding: 1.5px;
+}
+.wrapper{
+	margin: 10px;
+}
+.crystalCollector{
+	background-color: orange;
+	height:70px;
+	width: 200px;
+}
+.RULES{
+	background-color: #ffdf91;
+	height:280px;
+	width: 360px;
+	margin-top:6px;
+	padding: 15px 10px 0px 10px;
+}
+.randNumNtally{
+	margin-top: 6px;
+
+}
+#randomNumber{
+	float:left;
+	background-color: #17c64c;
+	height:100px;
+	width: 120px;
+}
+.tally{
+	/*position:inline;*/
+	float:left;
+	background-color: #00ffdd;
+	height:100px;
+	width: 85px;
+	margin-left: 5px;
+}
+p.Lheight{
+	line-height: 1.2;
+}
+.crystalImages{
+	clear: both;
+}
+.gem{
+	margin-top: 6px;
+	border: dotted green 4px;
+	height: 120px;
+	width: 120px;
+}
+.currentScoreP{
+	background-color: #289b54;
+	margin: 6px 0px 6px 0px;
+	height: 40px;
+	width: 120px;
+}
+.currentScoreNum{
+	background-color: #289b54;
+	margin-top: 15px;
+	padding: 1px;
+	height: 40px;
+	width: 200px;
+}
