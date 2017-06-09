@@ -7,6 +7,8 @@
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js">
 	</script>
+	<script type="text/javascript" src="assets/javascript/game.js">
+	</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -21,7 +23,9 @@
 			<p>Each time when the game starts, the game will change the values of each crystal.</p>
 		</div>
 		<div class="randNumNtally">
-			<div id="randomNumber"></div>
+			<div>
+				<span id="randomNumber"></span>
+			</div>
 			<div class="tally">
 				<div id="youWinYouLose">
 					<p class="Lheight">???
@@ -37,10 +41,10 @@
 			</div>
 		</div>
 		<div class="crystalImages">
-			<img class="gem" alt="Red Gem" src="assets/images/redGem.jpg"> 
-			<img class="gem" alt="Purple Gem" src="assets/images/purpleGem.jpg"> 
-			<img class="gem" alt="Green Gem" src="assets/images/greenGem.jpg"> 
-			<img class="gem" alt="Clear Gem" src="assets/images/clearGem.jpg">
+			<img class="gem" alt="Red Gem" id="redGem" src="assets/images/redGem.jpg"> 
+			<img class="gem" alt="Purple Gem" id="purpleGem" src="assets/images/purpleGem.jpg"> 
+			<img class="gem" alt="Green Gem" id="greenGem" src="assets/images/greenGem.jpg"> 
+			<img class="gem" alt="Clear Gem" id="clearGem" src="assets/images/clearGem.jpg">
 		</div>
 		<div class="currentScoreP">
 			<div>
