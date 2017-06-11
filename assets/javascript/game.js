@@ -45,32 +45,34 @@ $(document).ready(function() {
 	/*Update the new value of the variable "RED" by adding the value of the variable "redGemCounter" to the value 
 	of the previous variable "RED"*/	
 		RED = redGemCounter + RED;
-	//alert the value of the variable "RED"
-		//alert(RED);
 	//print the value of the variable "RED" to the console
 		console.log("total red gem score: " + RED);
 	//set the value of the variable "globalCount" to the value of the variable "RED"	
 		globalCount += RED;
 		$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html(globalCount);
-//
+
 	if (globalCount === randNumber){
 			$("#youWinYouLose").html(alert("You Win!!!"));
 			$("#winCount").html("WINS: " + WINS++);
 			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
+			$("#randomNumber").css({"font-size":"100px","text-align":"center"}).html(getRandomInt(19, 120));
+		console.log("Global count is: " + globalCount);
 		}
 		else if (globalCount > randNumber){
 			$("#youWinYouLose").html(alert("You Lose!!!"));
 			$("#lossCount").html("LOSSES: " + LOSSES++);
 			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
+			$("#randomNumber").css({"font-size":"100px","text-align":"center"}).html(getRandomInt(19, 120));
+		//console.log("Global count is: " + globalCount);
 		}	
 		else{
-			$("#youWinYouLose").html(alert("Keep Playing!"));
+			$("#youWinYouLose").html();
 		}
 
 
 		RED = 0;
 	//print the value of the variable "globalCount" to the console	
-		console.log("current global count: " + globalCount);
+		console.log("Global count is: " + globalCount);
 	});
 
 
@@ -88,24 +90,29 @@ $(document).ready(function() {
 		globalCount += PURPLE;
 	//select the elemnt
 		$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html(globalCount);
-//	
+
 	if (globalCount === randNumber){
 			$("#youWinYouLose").html(alert("You Win!!!"));
 			$("#winCount").html("WINS: " + WINS++);
 			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
+			$("#randomNumber").css({"font-size":"100px","text-align":"center"}).html(getRandomInt(19, 120));
+			//globalCount = 0;
+		console.log("Global count is: " + globalCount);
 		}
 		else if (globalCount > randNumber){
 			$("#youWinYouLose").html(alert("You Lose!!!"));
 			$("#lossCount").html("LOSSES: " + LOSSES++);
 			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
+			$("#randomNumber").css({"font-size":"100px","text-align":"center"}).html(getRandomInt(19, 120));
 		}	
 		else{
-			$("#youWinYouLose").html(alert("Keep Playing!"));
+			$("#youWinYouLose").html();
 		}
 
 		PURPLE = 0;
-	//print the value of the variable "globalCount" to the console	
-		console.log("current global count: " + globalCount);
+	//print the value of the variable "globalCount" to the console
+	//globalCount = 0;
+		console.log("Global count is: " + globalCount);
 	});
 
 //Select the id "greenGem" and when it is clicked, alert a message "You clicked the Green Gem!". 
@@ -114,8 +121,6 @@ $(document).ready(function() {
 	/*Update the new value of the variable "GREEN" by adding the value of the variable "greenGemCounter" to the value 
 	of the previous variable "GREEN"*/	
 		GREEN = greenGemCounter + GREEN;
-	//alert the value of the variable "GREEN"
-		//alert(GREEN);
 	//print the value of the variable "GREEN" to the console
 		console.log("total Green gem score: " + GREEN);
 	//set the value of the variable "globalCount" to the value of the variable "GREEN"	
@@ -126,19 +131,23 @@ $(document).ready(function() {
 			$("#youWinYouLose").html(alert("You Win!!!"));
 			$("#winCount").html("WINS: " + WINS++);
 			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
+			$("#randomNumber").css({"font-size":"100px","text-align":"center"}).html(getRandomInt(19, 120));
+			//globalCount = 0;
+		console.log("Global count is: " + globalCount);
 		}
 		else if (globalCount > randNumber){
 			$("#youWinYouLose").html(alert("You Lose!!!"));
 			$("#lossCount").html("LOSSES: " + LOSSES++);
 			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
+			$("#randomNumber").css({"font-size":"100px","text-align":"center"}).html(getRandomInt(19, 120));	
 		}	
 		else{
-			$("#youWinYouLose").html(alert("Keep Playing!"));
+			$("#youWinYouLose").html();
 		}
 
 		GREEN = 0;
-	//print the value of the variable "globalCount" to the console	
-		console.log("current global count: " + globalCount);
+	//print the value of the variable "globalCount" to the console
+	console.log("Global count is: " + globalCount);
 	});
 
 //Select the id "clearGem" and when it is clicked, alert a message "You clicked the Clear Gem!". 
@@ -147,8 +156,6 @@ $(document).ready(function() {
 	/*Update the new value of the variable "CLEAR" by adding the value of the variable "clearGemCounter" to the value 
 	of the previous variable "CLEAR"*/	
 		CLEAR = clearGemCounter + CLEAR;
-	//alert the value of the variable "CLEAR"
-		//alert(CLEAR);
 	//print the value of the variable "CLEAR" to the console
 		console.log("total Clear gem score: " + CLEAR);
 	//set the value of the variable "globalCount" to the value of the variable "CLEAR"	
@@ -159,35 +166,27 @@ $(document).ready(function() {
 			$("#youWinYouLose").html(alert("You Win!!!"));
 			$("#winCount").html("WINS: " + WINS++);
 			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
+			$("#randomNumber").css({"font-size":"100px","text-align":"center"}).html(getRandomInt(19, 120));
+			//globalCount = 0;
+		console.log("Global count is: " + globalCount);
 		}
 		else if (globalCount > randNumber){
 			$("#youWinYouLose").html(alert("You Lose!!!"));
 			$("#lossCount").html("LOSSES: " + LOSSES++);
 			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
+			$("#randomNumber").css({"font-size":"100px","text-align":"center"}).html(getRandomInt(19, 120));
 		}	
 		else{
-			$("#youWinYouLose").html(alert("Keep Playing!"));
+			$("#youWinYouLose").html();
 		}
 	
 		CLEAR = 0;
 
-	//print the value of the variable "globalCount" to the console	
-		console.log("current global count: " + globalCount);
-	});
+		console.log("Global count is: " + globalCount);
 		
+	});
+	//print the value of the variable "globalCount" to the console
+	globalCount = 0;
+	console.log("Global count is: " + globalCount);
 	
-		/*if (globalCount === randNumber){
-			$("#youWinYouLose").html(alert("You Win!!!"));
-			$("#winCount").append(WINS++);
-			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
-		}
-		else if (globalCount > randNumber){
-			$("#youWinYouLose").html(alert("You Lose!!!"));
-			$("#lossCount").append(LOSSES++);
-			$("#currentScoreNum").css({"font-size":"90px","text-align":"center"}).html("0");
-		}	
-		else{
-			$("#youWinYouLose").html(alert("Keep Playing!"));
-		}*/
-
 });
