@@ -8,6 +8,8 @@ h1{
 
 h2{
 	padding: 3px;
+	font-size: 90px;
+	text-align: center;
 }
 p{
 	padding: 1.5px;
@@ -46,7 +48,7 @@ p{
 	margin-left: 20px;
 }
 p.Lheight{
-	line-height: 1.1;
+	font-size: 15px;
 }
 .crystalImages{
 	clear: both;
