@@ -1,55 +1,79 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 	<meta charset="UTF-8">
+
 	<title>Crystal Collector!</title>
 	<link href="assets/css/reset.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js">
 	</script>
-	<script type="text/javascript" src="assets/javascript/game.js">
+	<script src="assets/javascript/game.js" type="text/javascript">
 	</script>
 </head>
+
 <body>
 	<div class="wrapper">
 		<div class="crystalCollector">
 			<h1>Crystal Collector</h1>
 		</div>
+
+
 		<div class="RULES">
-			<p>Observe the number in the GREEN SQUARE at the start of the game. This is the user's target score.</p><br>
-			<p>Observe the crystal images below. The value of each crystal is unknown until the user clicks it. By clicking on any one of the four crystals the user will increase the amount of points to your current score. If the user clicks a specific crystal more than once, the same amount of points will be added to the user's current score</p><br>
-			<p>WIN the game by matching the user current score to the user target score. LOSE the game if the user current score goes above the user target score.</p><br>
+			<p>Observe the number in the GREEN SQUARE at the start of the game. This is the user's target score.</p>
+			<br>
+
+
+			<p>Observe the crystal images below. The value of each crystal is unknown until the user clicks it. By clicking on any one of the four crystals the user will increase the amount of points to your current score. If the user clicks a specific crystal more than once, the same amount of points will be added to the user's current score</p>
+			<br>
+
+
+			<p>WIN the game by matching the user current score to the user target score. LOSE the game if the user current score goes above the user target score.</p>
+			<br>
+
+
 			<p>Each time the game starts, the target score as well as each crystal will be reset to a random new number.</p>
 		</div>
+
+
 		<div class="randNumNtally">
 			<div>
 				<span id="randomNumber"></span>
 			</div>
+
+
 			<div class="tally">
 				<div id="youWinYouLose">
 					<p class="">
+					</p>
 				</div>
+
+
 				<div id="winCount">
 					<p class="Lheight">WINS:</p>
 				</div>
 				<br>
+
+
 				<div id="lossCount">
 					<p class="Lheight">LOSSES:</p>
 				</div>
 			</div>
 		</div>
-		<div class="crystalImages">
-			<img class="gem" alt="Red Gem" id="redGem" src="assets/images/redGem.jpg"> 
-			<img class="gem" alt="Purple Gem" id="purpleGem" src="assets/images/purpleGem.jpg"> 
-			<img class="gem" alt="Green Gem" id="greenGem" src="assets/images/greenGem.jpg"> 
-			<img class="gem" alt="Clear Gem" id="clearGem" src="assets/images/clearGem.jpg">
-		</div>
+
+
+		<div class="crystalImages"><img alt="Red Gem" class="gem" id="redGem" src="assets/images/redGem.jpg"> <img alt="Purple Gem" class="gem" id="purpleGem" src="assets/images/purpleGem.jpg"> <img alt="Green Gem" class="gem" id="greenGem" src="assets/images/greenGem.jpg"> <img alt="Clear Gem" class="gem" id="clearGem" src="assets/images/clearGem.jpg"></div>
+
+
 		<div class="currentScoreP">
 			<div>
 				<p class="curScore">Current Score:</p>
 			</div>
+
+
 			<div class="currentScoreNum" id="currentScoreNum">
-				<h2 >0</h2>
+				<h2>0</h2>
 			</div>
 		</div>
 	</div>

@@ -1,79 +1,77 @@
-body{
-	background-image: url("../images/space.jpeg");
+body {
+    background-image: url("../images/space.jpeg");
 }
-h1{
-	font-size: 1.5em;
-	padding: 5px 15px 25px 15px;
+h1 {
+    font-size: 1.5em;
+    padding: 5px 15px 25px 15px;
 }
-
-h2{
-	padding: 3px;
-	font-size: 90px;
-	text-align: center;
+h2 {
+    padding: 3px;
+    font-size: 90px;
+    text-align: center;
 }
-p{
-	padding: 1.5px;
+p {
+    padding: 1.5px;
 }
-.wrapper{
-	margin: 10px;
+.wrapper {
+    margin: 10px;
 }
-.crystalCollector{
-	background-color: orange;
-	height:40px;
-	width: 200px;
+.crystalCollector {
+    background-color: orange;
+    height: 40px;
+    width: 200px;
 }
-.RULES{
-	background-color: #ffdf91;
-	height:300px;
-	width: 360px;
-	margin-top:6px;
-	padding: 15px 10px 0px 10px;
+.RULES {
+    background-color: #ffdf91;
+    height: 300px;
+    width: 360px;
+    margin-top: 6px;
+    padding: 15px 10px 0px 10px;
 }
-.randNumNtally{
-	margin-top: 6px;
-
+.randNumNtally {
+    margin-top: 6px;
 }
-#randomNumber{
-	float:left;
-	background-color: #17c64c;
-	height:100px;
-	width: 150px;
+#randomNumber {
+    float: left;
+    background-color: #17c64c;
+    height: 100px;
+    width: 150px;
 }
-.tally{
-	/*position:inline;*/
-	float:left;
-	background-color: #00ffdd;
-	height:100px;
-	width: 120px;
-	margin-left: 20px;
+.tally {
+    /*position:inline;*/
+    float: left;
+    background-color: #00ffdd;
+    height: 100px;
+    width: 120px;
+    margin-left: 20px;
 }
-p.Lheight{
-	font-size: 15px;
+p.Lheight {
+    font-size: 15px;
 }
-.crystalImages{
-	clear: both;
+.crystalImages {
+    clear: both;
 }
-.gem{
-	margin-top: 6px;
-	border: dotted green 4px;
-	height: 100px;
-	width: 100px;
+.gem {
+    margin-top: 6px;
+    border: dotted green 4px;
+    height: 100px;
+    width: 100px;
 }
-.currentScoreP{
-	background-color: red;
-	margin: 6px 0px 6px 0px;
-	height: 90px;
-	width: 150;
-	float: left;
+.currentScoreP {
+    background-color: red;
+    margin: 6px 0px 6px 0px;
+    height: 90px;
+    width: 150;
+    float: left;
 }
-.curScore{
-	font-size: 25px;
-	text-align: center;
+.curScore {
+    font-size: 25px;
+    text-align: center;
 }
-.currentScoreNum{
-	background-color: white;
-	margin-top: 15px;
-	height: 100px;
-	width: 150px;
-	float: left;
+.currentScoreNum {
+    background-color: white;
+    margin-top: 15px;
+    height: 100px;
+    width: 150px;
+    float: left;
 }
